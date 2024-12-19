@@ -135,7 +135,7 @@ const EventDetails = () => {
             {event.photos.map((photo, index) => (
               <img
                 key={index}
-                src={`http://localhost:5000${photo}`}
+                src={`https://emh-backend.onrender.com${photo}`}
                 alt={`Event Photo ${index}`}
                 className="w-full h-64 object-cover rounded-lg shadow-md transform hover:scale-105 transition-transform duration-300"
               />
@@ -242,7 +242,7 @@ const EventDetails = () => {
               {PhotosAfterUpdation.map((photo, index) => (
                 <img
                   key={index}
-                  src={`http://localhost:5000${photo}`}
+                  src={`https://emh-backend.onrender.com${photo}`}
                   alt={`Updated Photo ${index}`}
                   className="w-full h-64 object-cover rounded-lg shadow-md transform hover:scale-105 transition-transform duration-300"
                 />

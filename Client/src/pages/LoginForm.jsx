@@ -27,7 +27,7 @@ const LoginForm = () => {
       setUser(response.data.user); 
       setuseroradminrole(response.data.role);
       navigate("/");
-      window.location.reload()
+      // window.location.reload()
       
     } catch (error) {
       setMessage(

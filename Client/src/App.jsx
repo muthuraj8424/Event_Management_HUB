@@ -11,7 +11,7 @@ import DisplayEvent from './pages/DisplayEvent';
 import Enquiry from './pages/Enquiry';
 import RegisteredEvents from './pages/RegisterdEvents';
 import axios from 'axios';
-axios.defaults.baseURL = "http://localhost:5000"; 
+axios.defaults.baseURL = "https://emh-backend.onrender.com"; 
 function App() {
   return (
  

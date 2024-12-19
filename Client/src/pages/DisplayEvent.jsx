@@ -35,7 +35,7 @@ const DisplayEvent = () => {
           >
             <div className="relative">
               <img
-                src={`http://localhost:5000${event.photos[0]}`}
+                src={`https://emh-backend.onrender.com${event.photos[0]}`}
                 alt="Event"
                 className="w-full h-72 mb-4 object-cover rounded-lg shadow-md transition-transform duration-300 hover:scale-105"
               />

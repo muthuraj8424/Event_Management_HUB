@@ -18,7 +18,7 @@ connectDB();
 // Middleware
 app.use(express.json()); // For parsing JSON requests
 const corsOptions = {
-  origin: ['http://localhost:5173'], 
+  origin: ['https://emh-frontend.onrender.com'], 
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], 
   credentials: true, 
   preflightContinue: false, 

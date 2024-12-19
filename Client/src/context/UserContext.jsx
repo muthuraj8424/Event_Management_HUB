@@ -19,7 +19,7 @@ export const UserProvider = ({ children }) => {
         });
         const username = data?.user?.split('@')[0]
         console.log(data);
-        setUsername(username)
+        
         setMessage(data.message)
 
   
@@ -27,6 +27,7 @@ export const UserProvider = ({ children }) => {
           setUser(data.user);
           setuseroradminrole(data.role);
           setUserId(data.id); 
+          setUsername(username)
         } else {
           const username = data?.user?.split('@')[0]
           setUser(data.user);

@@ -188,7 +188,7 @@ const EventForm = () => {
                   addedphotos.map((link, index) => (
                     <div key={index} className="flex justify-center">
                       <img
-                        src={`http://localhost:5000${link}`}
+                        src={`https://emh-backend.onrender.com${link}`}
                         alt="Event"
                         className="w-full h-48 object-cover rounded-2xl shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
                       />
